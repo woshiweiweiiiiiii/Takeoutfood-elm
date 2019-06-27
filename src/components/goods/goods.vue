@@ -137,7 +137,7 @@ export default {
 	
 		axios({
 			method: 'get',
-			url: 'http://94.191.55.232:2001/api/goods'
+			url: 'https://94.191.55.232:2001/api/goods'
 		}).then(res => {
 			if (res.data.errno === ERR_OK) {
 				this.goods = res.data.data

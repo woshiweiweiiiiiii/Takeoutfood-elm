@@ -104,7 +104,7 @@
 		created() {
 			axios({
 				method: 'get',
-				url: 'http://94.191.55.232:2001/api/ratings'
+				url: 'https://94.191.55.232:2001/api/ratings'
 			}).then(res => {
 				if (res.data.errno === ERR_OK) {
 					this.ratings = res.data.data

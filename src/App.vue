@@ -32,7 +32,7 @@ export default {
 		axios({
 			method: 'get',
 			// url: '/api/store'
-			url: 'http://94.191.55.232:2001/api/store'
+			url: 'https://94.191.55.232:2001/api/store'
 			// url: '/api/store'
 		}).then(res => {
 			// console.log(res.data.data);
